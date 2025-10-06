@@ -1,0 +1,43 @@
+#video000 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+  opacity: 1; /* Adjust background video brightness */
+}
+
+.header {
+  font-family: "unifont";
+  text-align: left;
+  padding: 32px;
+	padding-left: 48px;
+  font-size: 1.5em;
+  z-index: 1;
+  position: relative;
+  color: white;
+}
+
+.mainDiv {
+  display:grid;
+  grid-template-columns: 1f,1f,1f;
+  font-family: unifont, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+#main-center {
+  grid-column: 2;
+  text-allign: left;
+}
+
+#link-main-center {
+  color:white;
+}
+
+@font-face {
+  font-family: "unifont";
+  src: url('./fonts/unifont-16.0.04.otf');
+}
